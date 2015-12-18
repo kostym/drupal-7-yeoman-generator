@@ -1,7 +1,7 @@
 {
-  "name": "generator-drupal-component",
-  "version": "0.1.0",
-  "description": "This is NOT for generating standard drupal modules. Generate drupal components.",
+  "name": "generator-kostym-component-drupal-7",
+  "version": "0.1.1",
+  "description": "Generate Kostym components for Drupal 7.",
   "keywords": [
     "yeoman-generator"
   ],

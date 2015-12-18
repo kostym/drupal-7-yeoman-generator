@@ -10,7 +10,7 @@ var DrupalComponentGenerator = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the Drupal Component generator!'
+      'Welcome to the Kostym Component generator!'
     ));
 
     var prompts = [

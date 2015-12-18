@@ -1,18 +1,28 @@
-generator-drupal-component
-==========================
+# Yeoman generator for Kostym components
 
-Yeoman generator for Drupal components. This is NOT for generating standard Drupal modules.
+* [Getting started](#getting-started)
+	* [Dependencies](#dependencies)
+	* [Install the generator](#install-the-generator)
+* [Generate component](#generate-component)
+	* [Generate component parts](#generate-component-parts)
+	
+## Getting started
+### Dependencies
+Make sure these are installed first.
 
-Install Yeoman:
+* [Node.js](http://nodejs.org)
+* [Yeoman](http://yeoman.io) `$ sudo npm install -g yo`
 
-    npm install -g yo
+### Install the generator
 
-Install the drupal-component generator:
+```
+$ npm install -g Kostym/drupal-7-yeoman-generator
+```
 
-    npm install -g StoraH/generator-drupal-component
-
-### Generate component
-    yo drupal-component
+## Generate component
+```
+$ yo drupal-component
+```
 
 * Name
 * js file (yes/no)
