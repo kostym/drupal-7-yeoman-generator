@@ -1,0 +1,9 @@
+{# slate
+  name = <%= ComponentName %><% if (entityModel) { %>
+  models[<%= bundle %>] = entity:<%= entityType %><% } %><% if (useViewMode) { %>
+  view_mode[<%= entityType %>][<%= bundle %>] = <%= viewMode %><% } %>
+#}
+
+<div class="<%= ComponentName %>">
+
+</div>
