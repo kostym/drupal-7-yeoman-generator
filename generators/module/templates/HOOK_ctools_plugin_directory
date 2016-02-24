@@ -1,3 +1,0 @@
-function <%= ComponentName %>_ctools_plugin_directory($owner, $plugin_type) {
-  return "$owner-$plugin_type";
-}

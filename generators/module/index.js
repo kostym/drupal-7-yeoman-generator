@@ -26,13 +26,6 @@ var moduleGenerator = yeoman.generators.Base.extend({
         this.componentPath = this.options.ComponentName + '/';
       }
 
-      this.HOOK_ctools_plugin_directory = '';
-      if (this.options && this.options.generateCtools_ContentType) {
-        var body = this.read('HOOK_ctools_plugin_directory', 'utf8');
-        body = this.engine(body, this);
-        this.HOOK_ctools_plugin_directory = body;
-      }
-
       this.HOOK_views_api = '';
       if (this.options && this.options.generateViewsStylePlugin) {
         var body = this.read('HOOK_views_api', 'utf8');
