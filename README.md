@@ -21,7 +21,7 @@ $ npm install -g Kostym/drupal-7-yeoman-generator
 
 ## Generate component
 ```
-$ yo drupal-component
+$ yo kostym-component-drupal-7
 ```
 
 * Name
@@ -34,14 +34,14 @@ $ yo drupal-component
 
 ### Generate component parts
 
-`yo drupal-component:js`
+`yo kostym-component-drupal-7:js`
 
-`yo drupal-component:scss`
+`yo kostym-component-drupal-7:scss`
 
-`yo drupal-component:twig`
+`yo kostym-component-drupal-7:twig`
 
-`yo drupal-component:module`
+`yo kostym-component-drupal-7:module`
 
-`yo drupal-component:ctools-content_type`
+`yo kostym-component-drupal-7:ctools-content_type`
 
-`yo drupal-component:views_style_plugin`
+`yo kostym-component-drupal-7:views_style_plugin`

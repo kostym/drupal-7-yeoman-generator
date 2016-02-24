@@ -59,26 +59,26 @@ var DrupalComponentGenerator = yeoman.generators.Base.extend({
 
     this.prompt(prompts, function (props) {
       if (props.generateJs) {
-        this.composeWith("drupal-component:js", {options: {'ComponentName': props.ComponentName}});
+        this.composeWith("kostym-component-drupal-7:js", {options: {'ComponentName': props.ComponentName}});
       }
       if (props.generateScss) {
-        this.composeWith("drupal-component:scss", {options: {'ComponentName': props.ComponentName}});
+        this.composeWith("kostym-component-drupal-7:scss", {options: {'ComponentName': props.ComponentName}});
       }
       if (props.generateTwig) {
-        this.composeWith("drupal-component:twig", {options: {'ComponentName': props.ComponentName}});
+        this.composeWith("kostym-component-drupal-7:twig", {options: {'ComponentName': props.ComponentName}});
       }
       if (props.generateModule) {
-        this.composeWith("drupal-component:module", {options: {
+        this.composeWith("kostym-component-drupal-7:module", {options: {
           'ComponentName': props.ComponentName,
           'generateCtools_ContentType': props.generateCtools_ContentTypeGenerator,
           'generateViewsStylePlugin': props.generateViewsStylePlugin
         }});
       }
       if (props.generateCtools_ContentTypeGenerator) {
-        this.composeWith("drupal-component:ctools-content_type", {options: {'ComponentName': props.ComponentName}});
+        this.composeWith("kostym-component-drupal-7:ctools-content_type", {options: {'ComponentName': props.ComponentName}});
       }
       if (props.generateViewsStylePlugin) {
-        this.composeWith("drupal-component:views_style_plugin", {options: {'ComponentName': props.ComponentName}});
+        this.composeWith("kostym-component-drupal-7:views_style_plugin", {options: {'ComponentName': props.ComponentName}});
       }
       done();
     }.bind(this));
