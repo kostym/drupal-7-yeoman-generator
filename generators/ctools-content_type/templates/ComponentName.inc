@@ -3,7 +3,7 @@
 $plugin = array(
   'single' => TRUE,
   'title' => '<%= ComponentName %>',
-  'category' => 'Components',
+  'category' => 'Kostym Components',
   'render callback' => '_<%= ComponentName %>_ctools_content_type_render',
   'edit form' => '_<%= ComponentName %>_ctools_content_type_edit_form',
 );
